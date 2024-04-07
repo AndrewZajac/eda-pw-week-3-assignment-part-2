@@ -60,13 +60,10 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 
 let i = 0;
-let text = '';
-while(stars[i]){
-  text += stars[i];
+while(i < stars.length){
+  console.log(stars[i]);
   i++;
-  console.log(text);
 }
-//NEED HELP
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
